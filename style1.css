@@ -1,0 +1,60 @@
+
+.navbar-custom {
+    background-color: #e4b9b9;
+    border: white;
+  }
+
+  .navbar-custom button:hover{
+    background: white;
+    color: #320404;
+  }
+  
+
+  .menu-button {
+    background: none;
+    border: none;
+    color: #5c579e;
+    font-size: 24px;
+  }
+  
+  .dropdown-menu {
+    width: 100%;
+    background-color: #efcece;
+  }
+  
+  .tall-section {
+    height: auto;
+    min-height: 1000px;
+    background-color: white;
+    margin-top: 20px;
+  }
+  
+  .content-box {
+    height: 1000px;
+    background-color: #d9a0a0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow:hidden;
+  }
+
+  .content-box h1{
+    text-align: center;
+  }
+
+  .content-box p{
+    text-align: left;
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    #chicken, #beef {
+      width: 50%;
+      float: left;
+    }
+    #sushi {
+      width: 100%;
+      clear: both;
+    }
+  }
+  
